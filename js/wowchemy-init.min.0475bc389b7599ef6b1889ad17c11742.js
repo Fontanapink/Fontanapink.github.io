@@ -10,4 +10,4 @@ console.debug("User theming enabled.");let isDarkTheme;let currentThemeMode=getT
 break;}
 if(isDarkTheme&&!body.classList.contains("dark")){console.debug("Applying Wowchemy dark theme");document.body.classList.add("dark");}else if(!isDarkTheme&&body.classList.contains("dark")){console.debug("Applying Wowchemy light theme");document.body.classList.remove("dark");}
 return{isDarkTheme,themeMode:currentThemeMode};}
-var wcDarkLightEnabled=true;var wcIsSiteThemeDark=false;window.wc={darkLightEnabled:wcDarkLightEnabled,isSiteThemeDark:wcIsSiteThemeDark};initThemeVariation();})();
+var wcDarkLightEnabled=false;var wcIsSiteThemeDark=false;window.wc={darkLightEnabled:wcDarkLightEnabled,isSiteThemeDark:wcIsSiteThemeDark};initThemeVariation();})();
