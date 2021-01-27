@@ -1,0 +1,63 @@
+---
+# Documentation: https://wowchemy.com/docs/managing-content/
+
+title: Design of Asynchronous Genetic Circuits
+subtitle: ''
+summary: ''
+authors:
+- T. Nguyen
+- T. S. Jones
+- P. Fontanarrosa
+- J. V. Mante
+- Z. Zundel
+- D. Densmore
+- C. J. Myers
+tags:
+- '"asynchronous design"'
+- '"clocks"'
+- '"genetic circuits"'
+- '"genetic design automation (gda)"'
+- '"genetics"'
+- '"production"'
+- '"proteins"'
+- '"protocols"'
+- '"standards"'
+- '"standards"'
+- '"synthetic biology"'
+- '"timing"'
+- '"verification"'
+categories: []
+date: '2019-01-01'
+lastmod: 2021-01-27T15:31:44-03:00
+featured: false
+draft: false
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: false
+
+# Projects (optional).
+#   Associate this post with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
+#   Otherwise, set `projects = []`.
+projects: []
+publishDate: '2021-01-27T18:31:44.138551Z'
+publication_types:
+- 2
+abstract: Most digital electronic circuits utilize a timing reference to synchronize
+  the progression of signals and enable sequential memory elements. These designs
+  may not be realizable in biological substrates due to the lack of a reliable high-frequency
+  clock signal. Asynchronous designs eliminate the need for a clock with data encodings
+  and request/acknowledge handshake protocols. This paper proposes a workflow to automate
+  the design of asynchronous genetic circuits. This workflow extends genetic design
+  tools by leveraging asynchronous logic design methods customized for this technology.
+  This workflow is demonstrated on a genetic sensor that uses filtering and cellular
+  communication to improve its reliability.
+publication: '*Proceedings of the IEEE*'
+doi: 10.1109/JPROC.2019.2916057
+---
